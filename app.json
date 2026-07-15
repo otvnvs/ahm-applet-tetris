@@ -1,4 +1,12 @@
 {
   "name": "Tetris",
-  "svgContent": "<path d=\"M3 15h6v6H3zm6 0h6v6H9zm6-6h6v6h-6zm-6 0h6v6H9z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/>"
+  "svgContent": "<path d=\"M3 15h6v6H3zm6 0h6v6H9zm6-6h6v6h-6zm-6 0h6v6H9z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/>",
+  "files":[
+	"index.vue",
+	"components/TetrisControls.vue",
+	"components/TetrisGrid.vue",
+	"components/TetrisHeader.vue",
+	"lib/sound.js",
+	"lib/tetrisEngine.js"
+  ]
 }
